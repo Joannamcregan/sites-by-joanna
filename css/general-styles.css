@@ -1,0 +1,9 @@
+main {
+    min-height: 85vh;
+}
+nav{
+    display: inline;
+}
+.centered-text{
+    text-align: center;
+}
