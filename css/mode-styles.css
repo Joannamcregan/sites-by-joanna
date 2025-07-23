@@ -4,7 +4,7 @@ body.light {
 }
 body.dark {
     background: rgb(43, 45, 44);
-    color: rgb(241, 241, 241);
+    color: rgb(209, 215, 220);
 }
 body.light #header--img-logo--dark{
     display: none;

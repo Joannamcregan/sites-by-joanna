@@ -1,6 +1,3 @@
-#header--text-logo{
-    display: inline;
-}
 #header--img-logo{
     display: none;
 }
@@ -16,9 +13,6 @@
     width: auto;
 }
 @media screen and (max-width: 680px) {
-    #header--text-logo{
-        display: none;
-    }
     #header--img-logo{
         display: inline;
     }
