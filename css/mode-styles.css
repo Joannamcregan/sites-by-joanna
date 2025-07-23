@@ -1,0 +1,14 @@
+body.light {
+    background: rgb(245, 245, 245);
+    color: black;
+}
+body.dark {
+    background: rgb(43, 45, 44);
+    color: rgb(241, 241, 241);
+}
+body.light #header--img-logo--dark{
+    display: none;
+}
+body.dark #header--img-logo--light{
+    display: none;
+}

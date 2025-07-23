@@ -8,11 +8,21 @@
     max-height: 40px;
     width: auto;
 }
+#header--mobile-menu-icon{
+    display: none;
+}
+#header--mobile-menu-icon img{
+    max-height: 40px;
+    width: auto;
+}
 @media screen and (max-width: 680px) {
     #header--text-logo{
         display: none;
     }
     #header--img-logo{
+        display: inline;
+    }
+    #header--mobile-menu-icon{
         display: inline;
     }
 }
