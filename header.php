@@ -5,7 +5,7 @@
         <meta name = "viewport" content = "width=device-width", initial-scale=1>
         <?php wp_head(); ?>
     </head>
-    <body class="light">
+    <body class="dark">
         <header>
             <div id="header--mobile-menu-icon">
                 <img src="<?php echo get_theme_file_uri('/images/mobile_menu_dark.jpg'); ?>" aria-label="mobile menu" id="header--mobile-menu--dark" />
