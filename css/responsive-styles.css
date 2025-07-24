@@ -1,22 +1,31 @@
 #header--img-logo{
-    display: none;
+    display: inline;
+    position: absolute;
+    right: 30px;
 }
 #header--img-logo img{
-    max-height: 40px;
     width: auto;
+    height: 100px;
+    display: inline;
 }
 #header--mobile-menu-icon{
     display: none;
+}
+nav{
+    display: inline;
 }
 #header--mobile-menu-icon img{
     max-height: 40px;
     width: auto;
 }
 @media screen and (max-width: 680px) {
-    #header--img-logo{
-        display: inline;
+    #header--img-logo img{
+        height: 50px;
     }
     #header--mobile-menu-icon{
         display: inline;
+    }
+    nav{
+        display: none;
     }
 }

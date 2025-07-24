@@ -12,3 +12,9 @@ body.light #header--img-logo--dark{
 body.dark #header--img-logo--light{
     display: none;
 }
+body.light #header--mobile-menu--dark{
+    display: none;
+}
+body.dark header--mobile-menu--light{
+    display: none;
+}
