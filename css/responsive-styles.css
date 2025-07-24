@@ -11,8 +11,11 @@
 #header--mobile-menu-icon{
     display: none;
 }
-nav{
-    display: inline;
+header nav{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding: 10px;
 }
 #header--mobile-menu-icon img{
     max-height: 40px;
@@ -25,7 +28,7 @@ nav{
     #header--mobile-menu-icon{
         display: inline;
     }
-    nav{
+    header nav{
         display: none;
     }
 }
