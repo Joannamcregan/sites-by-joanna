@@ -15,6 +15,6 @@ body.dark #header--img-logo--light{
 body.light #header--mobile-menu--dark{
     display: none;
 }
-body.dark header--mobile-menu--light{
+body.dark #header--mobile-menu--light{
     display: none;
 }
