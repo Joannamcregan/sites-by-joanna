@@ -35,8 +35,12 @@ header nav span{
     height: 80px;
     width: 80px;
     margin: auto 20px;
-    border: solid blue 2px;
     display: inline-block;
+    position: relative;
+}
+#header--mode-selector img{
+    position: absolute;
+    top: 0;
 }
 @media screen and (max-width: 950px) {
     #header--img-logo img{

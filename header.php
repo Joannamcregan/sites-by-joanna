@@ -5,14 +5,17 @@
         <meta name = "viewport" content = "width=device-width", initial-scale=1>
         <?php wp_head(); ?>
     </head>
-    <body class="light">
+    <body class="dark">
         <header>
             <div id="header--mobile-menu-icon">
                 <img src="<?php echo get_theme_file_uri('/images/mobile_menu_dark.jpg'); ?>" aria-label="mobile menu" id="header--mobile-menu--dark" />
                 <img src="<?php echo get_theme_file_uri('/images/mobile_menu_light.jpg'); ?>" aria-label="mobile-menu" id="header--mobile-menu--light" />
             </div>
             <div id="header--mode-selector">
-
+                <img src="<?php echo get_theme_file_uri('/images/sun.png'); ?>" aria-label="light mode sun icon" id="sun" />
+                <img src="<?php echo get_theme_file_uri('/images/top_cloud.png'); ?>" aria-hidden="true" id="top-cloud" />
+                <img src="<?php echo get_theme_file_uri('/images/bottom_cloud.png'); ?>" aria-hidden="true" id="bottom-cloud" />
+                <img src="<?php echo get_theme_file_uri('/images/moon.png'); ?>" aria-label="dark mode moon icon" id="moon" />
             </div>
             <nav>
                 <span>WordPress</span>

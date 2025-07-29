@@ -18,3 +18,26 @@ body.light #header--mobile-menu--dark{
 body.dark #header--mobile-menu--light{
     display: none;
 }
+#header--mode-selector{
+    overflow: hidden;
+}
+body.light #header--mode-selector{
+    background: blue;
+    border: solid #7b7b7b 5px;
+}
+body.dark #header--mode-selector{
+    background: green;
+    border: solid #7b7b7b 10px;
+}
+body.light #sun{
+    display: none;
+}
+body.light #top-cloud{
+    display: none;
+}
+body.light #bottom-cloud{
+    display: none;
+}
+body.dark #moon{
+    display: none;
+}
