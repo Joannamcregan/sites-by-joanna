@@ -12,10 +12,10 @@
                 <img src="<?php echo get_theme_file_uri('/images/light_logo.jpg'); ?>" alt="The words 'Sites by Joanna' appear in black, green, and purple letters in front of a simple, green, pink, and purple illustration of a 1990s desktop computer" id="header--img-logo--light" />
             </div>
             <nav>
-                <span>WordPress</span>
-                <span>Single Page Sites</span>
-                <span>Other Specialties</span>
+                <span>Work</span>
                 <span>About</span>
+                <span>Contact</span>
+                <span>Blog</span>
             </nav>
             <div id="header--mobile-menu-icon">
                 <img src="<?php echo get_theme_file_uri('/images/mobile_menu_dark.jpg'); ?>" aria-label="mobile menu" id="header--mobile-menu--dark" />
