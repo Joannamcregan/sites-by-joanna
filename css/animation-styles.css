@@ -1,0 +1,55 @@
+.top-cloud{
+    animation: top-cloud-movement 120s infinite;
+}
+.bottom-cloud{
+    animation: bottom-cloud-movement 90s infinite;
+}
+@keyframes top-cloud-movement {
+    0% {
+        left: 0px;
+    }
+    10% {
+        left: 80px;
+    }
+    20% {
+        left: 80px;
+    }
+    40% {
+        left: -10px;
+    }
+    60% {
+        left: -10px;
+    }
+    70% {
+        left: 60px;
+    }
+    80% {
+        left: 60px;
+    }
+    90% {
+        left: -20px;
+    }
+    100% {
+        left: 0px;
+    }
+}
+@keyframes bottom-cloud-movement {
+    0% {
+        right: -10px;
+    }
+    30% {
+        right: -10px;
+    }
+    50% {
+        right: 100px;
+    }
+    65% {
+        right: 100px;
+    }
+    80% {
+        right: 50px;
+    }
+    100% {
+        right: -10px;
+    }
+}

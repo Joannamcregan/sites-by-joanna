@@ -20,14 +20,15 @@ body.dark #header--mobile-menu--light{
 }
 #header--mode-selector{
     overflow: hidden;
+    cursor: pointer;
 }
 body.light #header--mode-selector{
     background: blue;
-    border: solid #7b7b7b 5px;
+    border: solid #7b7b7b 10px;
 }
 body.dark #header--mode-selector{
-    background: green;
-    border: solid #7b7b7b 10px;
+    background-image: linear-gradient(#8388e4, #a47cdb);
+    border: solid #515151 10px;
 }
 body.light #sun{
     display: none;

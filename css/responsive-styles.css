@@ -38,9 +38,23 @@ header nav span{
     display: inline-block;
     position: relative;
 }
-#header--mode-selector img{
+#sun, #moon{
     position: absolute;
     top: 0;
+    width: 75px;
+    height: auto;
+}
+#top-cloud{
+    width: 30px;
+    position: absolute;
+    top: -10px;
+    left: 0px;
+}
+#bottom-cloud{
+    width: 15px;
+    position: absolute;
+    bottom: 20px;
+    right: -10px;
 }
 @media screen and (max-width: 950px) {
     #header--img-logo img{
@@ -74,5 +88,15 @@ header nav span{
     #header--mode-selector{
         height: 50px;
         width: 50px;
+    }
+    #sun, #moon{
+        width: 45px;
+        height: auto;
+    }
+    #top-cloud{
+        width: 15px;
+    }
+    #bottom-cloud{
+        width: 5px;
     }
 }

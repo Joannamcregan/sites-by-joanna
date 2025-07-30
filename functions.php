@@ -7,6 +7,7 @@ function Joanna_theme_files(){
     wp_enqueue_style('general-styles', get_stylesheet_directory_uri() . '/css/general-styles.css', false, '', 'all');
     wp_enqueue_style('responsive-styles', get_stylesheet_directory_uri() . '/css/responsive-styles.css', false, '', 'all');
     wp_enqueue_style('mode-styles', get_stylesheet_directory_uri() . '/css/mode-styles.css', false, '', 'all');
+    wp_enqueue_style('animation-styles', get_stylesheet_directory_uri() . '/css/animation-styles.css', false, '', 'all');
 }
 
 wp_localize_script('sites-js', 'sitesData', array(
