@@ -23,8 +23,8 @@ body.dark #header--mobile-menu--light{
     cursor: pointer;
 }
 body.light #header--mode-selector{
-    background: blue;
-    border: solid #7b7b7b 10px;
+    background-image: linear-gradient(185deg, #2b2d2c, #8f479d 15%, #aa2150 40%, #31a569 70%, #31a569 85%, #2b2d2c);
+    border: solid #515151 10px;
 }
 body.dark #header--mode-selector{
     background-image: linear-gradient(#8388e4, #a47cdb);
