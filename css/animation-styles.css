@@ -4,6 +4,9 @@
 .bottom-cloud{
     animation: bottom-cloud-movement 90s infinite;
 }
+body.light #header--mode-selector{
+    animation: aurora-flicker 3s infinite;
+}
 @keyframes top-cloud-movement {
     0% {
         left: 0px;
@@ -51,5 +54,40 @@
     }
     100% {
         right: -10px;
+    }
+}
+@keyframes aurora-flicker {
+    0% {
+        background-image: linear-gradient(185deg, #2b2d2c, #8f479d 15%, #aa2150 40%, #31a569 70%, #31a569 85%, #2b2d2c);
+    }
+    10% {
+        background-image: linear-gradient(185deg, #2b2d2c, #8f479d 25%, #aa2150 45%, #31a569 75%, #31a569 90%, #2b2d2c);
+    }
+    20% {
+        background-image: linear-gradient(185deg, #2b2d2c, #8f479d 30%, #aa2150 50%, #31a569 80%, #31a569 95%, #2b2d2c);
+    }
+    30% {
+        background-image: linear-gradient(185deg, #2b2d2c, #8f479d 25%, #aa2150 45%, #31a569 80%, #31a569 90%, #2b2d2c);
+    }
+    40% {
+        background-image: linear-gradient(185deg, #2b2d2c, #8f479d 25%, #aa2150 40%, #31a569 70%, #31a569 95%, #2b2d2c);
+    }
+    50% {
+        background-image: linear-gradient(185deg, #2b2d2c, #8f479d 20%, #aa2150 35%, #31a569 65%, #31a569 90%, #2b2d2c);
+    }
+    60% {
+        background-image: linear-gradient(185deg, #2b2d2c, #8f479d 25%, #aa2150 30%, #31a569 60%, #31a569 95%, #2b2d2c);
+    }
+    70% {
+        background-image: linear-gradient(185deg, #2b2d2c, #8f479d 20%, #aa2150 35%, #31a569 65%, #31a569 90%, #2b2d2c);
+    }
+    80% {
+        background-image: linear-gradient(185deg, #2b2d2c, #8f479d 15%, #aa2150 30%, #31a569 60%, #31a569 85%, #2b2d2c);
+    }
+    90% {
+        background-image: linear-gradient(185deg, #2b2d2c, #8f479d 20%, #aa2150 35%, #31a569 65%, #31a569 90%, #2b2d2c);
+    }
+    100% {
+        background-image: linear-gradient(185deg, #2b2d2c, #8f479d 25%, #aa2150 40%, #31a569 70%, #31a569 85%, #2b2d2c);
     }
 }
