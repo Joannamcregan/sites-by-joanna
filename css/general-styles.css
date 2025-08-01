@@ -1,6 +1,31 @@
+@font-face {
+    font-family: "coffee";
+    src: url("../fonts/CoffeeAndCream-yYx9V.ttf");
+}
+@font-face {
+    font-family: "vergillia";
+    src: url("../fonts/Vergilia-mL6aa.ttf");
+}
+.vergillia{
+    font-family: vergillia, serif;
+    font-weight: 500;
+}
+header{
+    font-family: coffee, sans-serif;
+    font-weight: 900;
+}
 main {
     min-height: 85vh;
 }
+footer {
+    margin: 0px -20px -20px -20px;
+    padding: 20px 10px 10px 10px;
+    font-family: coffee, sans-serif;
+    font-weight: 900;
+}
 .centered-text{
     text-align: center;
+}
+.right-text{
+    text-align: right;
 }

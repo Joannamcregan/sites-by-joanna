@@ -7,9 +7,9 @@
     </head>
     <body class="dark">
         <header>
-            <div id="header--img-logo">
-                <img src="<?php echo get_theme_file_uri('/images/dark_logo.jpg'); ?>" alt="The words 'Sites by Joanna' appear in white, green, and purple letters in front of a simple, green, pink, and purple illustration of a 1990s desktop computer" id="header--img-logo--dark" />
-                <img src="<?php echo get_theme_file_uri('/images/light_logo.jpg'); ?>" alt="The words 'Sites by Joanna' appear in black, green, and purple letters in front of a simple, green, pink, and purple illustration of a 1990s desktop computer" id="header--img-logo--light" />
+            <div class="vergillia" id="logo-text">
+                <p class="logo--top-line"><span class="logo--top-large"><em>Sites</em></span><span class="logo--top-small"><em> by</em></span></p>
+                <p class="logo--bottom-line"><em>Joanna</em></p>
             </div>
             <nav>
                 <span>Work</span>
@@ -17,14 +17,16 @@
                 <span>Contact</span>
                 <span>Blog</span>
             </nav>
-            <div id="header--mobile-menu-icon">
-                <img src="<?php echo get_theme_file_uri('/images/mobile_menu_dark.jpg'); ?>" aria-label="mobile menu" id="header--mobile-menu--dark" />
-                <img src="<?php echo get_theme_file_uri('/images/mobile_menu_light.jpg'); ?>" aria-label="mobile-menu" id="header--mobile-menu--light" />
-            </div>
             <div id="header--mode-selector">
                 <img src="<?php echo get_theme_file_uri('/images/sun.png'); ?>" aria-label="light mode sun icon" id="sun" />
                 <img src="<?php echo get_theme_file_uri('/images/top_cloud.png'); ?>" aria-hidden="true" id="top-cloud" class="top-cloud" />
                 <img src="<?php echo get_theme_file_uri('/images/bottom_cloud.png'); ?>" aria-hidden="true" id="bottom-cloud" class="bottom-cloud" />
+                <img src="<?php echo get_theme_file_uri('/images/top_cloud_dark.png'); ?>" aria-hidden="true" id="top-cloud-dark" class="top-cloud" />
+                <img src="<?php echo get_theme_file_uri('/images/bottom_cloud_dark.png'); ?>" aria-hidden="true" id="bottom-cloud-dark" class="bottom-cloud" />
                 <img src="<?php echo get_theme_file_uri('/images/moon.png'); ?>" aria-label="dark mode moon icon" id="moon" />
+            </div>
+            <div id="header--mobile-menu-icon">
+                <img src="<?php echo get_theme_file_uri('/images/mobile_menu_dark.jpg'); ?>" aria-label="mobile menu" id="header--mobile-menu--dark" />
+                <img src="<?php echo get_theme_file_uri('/images/mobile_menu_light.jpg'); ?>" aria-label="mobile-menu" id="header--mobile-menu--light" />
             </div>
         </header>

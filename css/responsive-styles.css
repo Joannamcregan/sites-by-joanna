@@ -3,13 +3,22 @@ header{
     width: 100%;
     justify-content: center;
 }
-#header--img-logo{
-    margin: auto;
+#logo-text{
+    margin: 20px auto;
 }
-#header--img-logo img{
-    width: auto;
-    height: 100px;
-    display: inline;
+.logo--top-line{
+    margin: 0px;
+}
+.logo--bottom-line{
+    margin: 0px;
+    font-size: 35px;
+    line-height: 90%;
+}
+.logo--top-large{
+    font-size: 40px;
+}
+.logo--top-small{
+    font-size: 20px;
 }
 #header--mobile-menu-icon{
     display: none;
@@ -32,67 +41,56 @@ header nav span{
     width: auto;
 }
 #header--mode-selector{
-    height: 40px;
-    width: 40px;
-    margin: auto 20px;
+    height: 60px;
+    width: 60px;
+    margin: 20px auto;
     display: inline-block;
     position: relative;
 }
 #sun, #moon{
     position: absolute;
     top: 0;
-    width: 35px;
+    width: 60px;
     height: auto;
 }
-#top-cloud{
-    width: 30px;
+.top-cloud{
+    width: 60px;
     position: absolute;
     top: -10px;
     left: 0px;
+    z-index: 1000;
 }
-#bottom-cloud{
-    width: 15px;
+.bottom-cloud{
+    width: 30px;
     position: absolute;
     bottom: 20px;
     right: -10px;
-}
-@media screen and (max-width: 950px) {
-    #header--img-logo img{
-        height: 75px;
-    }
-    #header--mode-selector{
-        height: 40px;
-        width: 40px;
-    }
-    #sun, #moon{
-        width: 30px;
-        height: auto;
-    }
-    #top-cloud{
-        width: 20px;
-    }
-    #bottom-cloud{
-        width: 10px;
-    }
+    z-index: 1000;
 }
 @media screen and (max-width: 840px) {
-    header{
-        display: block;
-    }
-    #header--img-logo{
-        position: absolute;
-        right: 20px;
-        top: 10px;
-    }
     #header--mobile-menu-icon{
-        display: inline;
+        display: block;
+        margin: 20px 10px;
     }
     header nav{
         display: none;
     }
+    #header--mode-selector{
+    margin: 20px 10px;
 }
-@media screen and (max-width: 380px) {
-    #header--img-logo img{
-        height: 60px;
-    }
+}
+@media screen and (max-width: 480px) {
+    #header--mode-selector{
+    height: 45px;
+    width: 45px;
+}
+#sun, #moon{
+    width: 45px;
+}
+.top-cloud{
+    width: 45px;
+}
+.bottom-cloud{
+    width: 22px;
+}
 }

@@ -4,9 +4,9 @@
 .bottom-cloud{
     animation: bottom-cloud-movement 90s infinite;
 }
-body.light #header--mode-selector{
+/* body.light #header--mode-selector{
     animation: aurora-flicker 3s infinite;
-}
+} */
 @keyframes top-cloud-movement {
     0% {
         left: 0px;
