@@ -2,7 +2,7 @@
       <p class="centered-text">Copyright 2025</p>
 </footer>
 
-<div id="mobile-menu-overlay" class="mobile-menu-overlay">
+<div id="mobile-menu-overlay" class="mobile-menu-overlay coffee right-text">
       <p>Work</p>
       <p>About</p>
       <p>Contact</p>

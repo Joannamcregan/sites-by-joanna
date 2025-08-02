@@ -10,7 +10,13 @@
     font-family: vergillia, serif;
     font-weight: 500;
 }
+.coffee{
+    font-family: coffee, sans-serif;
+    font-weight: 700;
+}
 body{
+    margin: 0px;
+    width: 100vw;
     position: relative;
 }
 header{
@@ -22,6 +28,7 @@ header{
 }
 main {
     min-height: 85vh;
+    width: 100%;
 }
 footer {
     margin: 0px -20px -20px -20px;
@@ -29,6 +36,7 @@ footer {
     font-family: coffee, sans-serif;
     font-weight: 900;
     position: relative;
+    width: 100%;
 }
 .hidden{
     display: none;
