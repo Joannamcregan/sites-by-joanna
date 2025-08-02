@@ -21,9 +21,10 @@ body.dark #header--mobile-menu--light{
 body.dark #logo-text{
     /* color: #eaddfc; */
     color: #f4effb;
-    text-shadow: 0px 0px 1px #a47cdb;
-    text-shadow: 0px 0px 3px #a47cdb;
+    text-shadow: 0px 0px 1px #2e3283;
+    text-shadow: 0px 0px 3px #2e3283;
     text-shadow: 0px 0px 5px #a47cdb;
+    text-shadow: 0px 0px 7px #a47cdb;
 }
 #header--mode-selector{
     overflow: hidden;

@@ -16,11 +16,13 @@ class Menu {
   constructor() {
     this.menuIcon = document.getElementById('header--mobile-menu-icon');
     this.modeIcon = document.getElementById('header--mode-selector');
+    this.mobileMenu = document.getElementById('mobile-menu-overlay');
     this.events();
   }
   events() {
     this.menuIcon.addEventListener('click', () => {
-      console.log('clicked');
+      this.mobileMenu.classList.remove('hidden');
+      this.mobileMenu.classList.add('mobile-menu-overlay--active');
     });
     this.modeIcon.addEventListener('click', () => {
       if (document.body.classList.contains('light')) {

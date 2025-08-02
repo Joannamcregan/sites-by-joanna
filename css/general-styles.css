@@ -10,9 +10,15 @@
     font-family: vergillia, serif;
     font-weight: 500;
 }
+body{
+    position: relative;
+}
 header{
     font-family: coffee, sans-serif;
     font-weight: 900;
+    display: flex;
+    width: 100%;
+    justify-content: center;
 }
 main {
     min-height: 85vh;
@@ -22,6 +28,10 @@ footer {
     padding: 20px 10px 10px 10px;
     font-family: coffee, sans-serif;
     font-weight: 900;
+    position: relative;
+}
+.hidden{
+    display: none;
 }
 .centered-text{
     text-align: center;
