@@ -7,6 +7,7 @@ class Menu {
     }
     events(){
         this.menuIcon.addEventListener('click', ()=>{
+            // document.body.classList.add('body-no-scroll');
             this.mobileMenu.classList.remove('hidden');
             this.mobileMenu.classList.add('mobile-menu-overlay--active');
         });

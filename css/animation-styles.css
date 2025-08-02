@@ -9,25 +9,23 @@
 } */
 .mobile-menu-overlay{
     position: absolute;
-    top: -100%;
-    right: -100%;
-    background-image: linear-gradient(to right, rgba(44, 21, 76, 0.3) 5%, rgba(44, 21, 76, 0.5) 10%, rgba(44, 21, 76, 1) 20%, rgba(44, 21, 76, 1));
+    top: 0;
+    right: 0;
+    opacity: 0;
     overflow: hidden;
     padding: 40px 60px 40px 200px;
     transition: .5s ease;
     z-index: 5000;
 }
 .mobile-menu-overlay--active{
-    animation: slide-down 1s forwards;
+    animation: fade-in 1s forwards;
 }
-@keyframes slide-down{
+@keyframes fade-in{
     0%{
-        top: -100px;
-        right: -100px;
+        opacity: 0;
     }
     100%{
-        top: -10px;
-        right: -20px;
+        opacity: 1;
     }
 }
 @keyframes top-cloud-movement {

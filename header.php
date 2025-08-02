@@ -4,10 +4,19 @@
         <meta charset='<?php bloginfo('charset'); ?>'>
         <meta name = "viewport" content = "width=device-width", initial-scale=1>
         <?php wp_head(); ?>
+        <title><?php
+            if (is_front_page()) {
+                bloginfo('name');
+            }
+            else {
+                wp_title(' | ', true, 'right');
+                bloginfo('name');
+            }
+        ?></title>
     </head>
     <body class="dark">
         <header>
-            <div class="vergillia" id="logo-text">
+            <div class="vergillia" id="logo-text" tabindex="0">
                 <p class="logo--top-line"><span class="logo--top-large"><em>Sites</em></span><span class="logo--top-small"><em> by</em></span></p>
                 <p class="logo--bottom-line"><em>Joanna</em></p>
             </div>
