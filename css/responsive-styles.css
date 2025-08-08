@@ -71,8 +71,8 @@ header nav span{
         display: none;
     }
     #header--mode-selector{
-    margin: 20px 10px;
-}
+        margin: 20px 10px;
+    }
 }
 @media screen and (max-width: 480px) {
     #header--mode-selector{

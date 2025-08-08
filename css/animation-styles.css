@@ -1,8 +1,8 @@
 .top-cloud{
-    animation: top-cloud-movement 120s infinite;
+    animation: top-cloud-movement 70s infinite;
 }
 .bottom-cloud{
-    animation: bottom-cloud-movement 90s infinite;
+    animation: bottom-cloud-movement 70s infinite;
 }
 /* body.light #header--mode-selector{
     animation: aurora-flicker 3s infinite;
@@ -35,17 +35,8 @@
     10% {
         left: 80px;
     }
-    20% {
-        left: 80px;
-    }
     40% {
         left: -10px;
-    }
-    60% {
-        left: -10px;
-    }
-    70% {
-        left: 60px;
     }
     80% {
         left: 60px;
@@ -59,22 +50,19 @@
 }
 @keyframes bottom-cloud-movement {
     0% {
-        right: -10px;
+        right: -50px;
     }
     30% {
-        right: -10px;
+        right: 130px;
     }
-    50% {
-        right: 100px;
+    60% {
+        right: -100px;
     }
-    65% {
-        right: 100px;
-    }
-    80% {
-        right: 50px;
+    90% {
+        right: 80px;
     }
     100% {
-        right: -10px;
+        right: -50px;
     }
 }
 @keyframes aurora-flicker {

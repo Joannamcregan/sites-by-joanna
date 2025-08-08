@@ -24,7 +24,6 @@
                 <span>Work</span>
                 <span>About</span>
                 <span>Contact</span>
-                <span>Blog</span>
             </nav>
             <div id="header--mode-selector">
                 <img src="<?php echo get_theme_file_uri('/images/sun.png'); ?>" aria-label="light mode sun icon" id="sun" />

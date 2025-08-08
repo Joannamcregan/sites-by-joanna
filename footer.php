@@ -7,7 +7,6 @@
             <p>Work</p>
             <p>About</p>
             <p>Contact</p>
-            <p>Blog</p>
       </nav>
 </div>
 
